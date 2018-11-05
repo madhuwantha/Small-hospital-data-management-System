@@ -1,0 +1,177 @@
+
+
+.fl::first-letter{text-transform: uppercase;} 
+
+
+.one_photo{ float: left;width: 40%; }
+.datails{ float: left;width: 60%; }
+.one_photo img{width: 90%;height: auto;}
+
+
+.name{color: black;font-size: 40px;letter-spacing: 5px;}
+.age{ color: black;font-size: 20px;margin-left: 50px; letter-spacing: 2px;}
+.dob{ color: black;font-size: 20px;margin-left: 50px; letter-spacing: 2px;}
+.id{ color: black;font-size: 20px;margin-left: 50px; letter-spacing: 2px;}
+.phone-number{ color: black;font-size: 20px;margin-left: 50px; letter-spacing: 2px;}
+.coming_date{ color: black;font-size: 20px;margin-left: 50px; letter-spacing: 2px;}
+.more-datails{ color: black;font-size: 20px;letter-spacing: 1px;text-align: justify; }
+
+
+
+p{color: black;}
+.p{background: #2196F3; float: left;width: 33%; padding: 10px;border: 1px solid #ccc;
+	margin-left: 0.33%;box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.2);z-index: 1;
+	 }
+.p:hover{border: 1px solid #777; }
+.nts{ text-align: left;font-size: 20px;overflow-y: auto;height: 200px; }
+
+.allll{padding: 10px;border: 1px solid #ccc;margin-top: 520px;font-size: 20px;}
+.allll:hover{border: 1px solid #777; }
+.p img {width:100%;height: auto;margin-bottom: 5px;max-height: 260px; }
+
+
+.left_all{float: right;width: 10%;}
+.right_edit{float: left;width: 95%;}
+.ab{ position: absolute;display: inline-block;cursor: pointer; }
+.ab img{width: 40px;height: auto;float: left;}
+.lab i{color: black;}
+td:hover td {background-color: red;}
+td{width: 200px;}
+.lab{float: right;}
+.but{float: left;}
+
+.cd{ display: none;width: 170px;
+  position: absolute;
+  border-color:black ;font-size: 20px;
+  background: white;
+	box-shadow: 0px 8px 16px 0px rgba(1,0,0,0.2);
+  padding: 10px;
+  z-index: 1;  
+}
+.ab:hover  .cd{display: block;}
+
+.a{float: right;width:88%;margin-top: 40px;margin-left: 1%; }
+.b{float: right;width:100%;margin-top: 50px;margin-left: 1%; }
+.c{border: 1px solid blue ;margin-top: 20px;background: #00d200;box-shadow: 0px 8px 16px 0px rgba(0,1,1,1.2);z-index: 1; }
+
+
+
+
+.dropbtn {
+    background-color:#0213b0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown1 {
+    position: fixed;margin-left: 75%;
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd}
+
+.show {display:block;}
+.delet-link{cursor: pointer;}
+
+.tableBlock{width: 65%;height: 850px;background: white;border-radius: 5px;} 
+
+.test{border-radius: 5px;background: white;width: 34.5%;height: 850px;float: right;position: relative;}
+
+.pppp img{width: 500px;height: auto;padding: 70px;}
+.pppp{color: black;}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin-left: 250px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 55%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #A7DBF3;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #A7DBF3;
+    color: white;
+}

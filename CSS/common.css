@@ -1,0 +1,21 @@
+	body {font-family: "Arial";margin: 0;}
+	a { text-decoration : none; } 
+	.clearfix{overflow: auto;}
+/*background-color: #000;*/
+
+	.main{	width: 100%;}
+    .details{width: 100%; height: auto;}
+    .details p {margin-left: 20px;margin-right: 10px;}
+    .details form p input {width: 380px;height: 28px;font-size: 30px;}
+
+    div.errormsg{color: red;}
+.lll:hover {font-size: 10px;color: red;}
+.material-icons:hover{font-size: 10px;}
+
+.top  {float: left;width: 70%;}
+.top h1{margin-left: 15%;}
+.search_people {float: left; width: 30%;}
+
+.sr{width: 200px;color: black;border-color: blue;border-radius: 10px;text-align: center;height: 25px;border: none;}
+
+body {font-family: Arial, Helvetica, sans-serif;background: #D4E8F1;}

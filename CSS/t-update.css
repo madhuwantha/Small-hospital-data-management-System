@@ -1,0 +1,8 @@
+
+textarea{width: 75%;border-style: solid;float: left;padding: 5px;height: 150px;/*color:#B3B6B7;*/}
+input[type="file"]{width: 50%;padding: 5px;height: 75px;float: right;}
+.last_comment{width: 100%;}
+input[type="submit"]{width: 15%;padding: 5px;height: 40px;font-size: 18px;background: #8FD2F0  ; margin-top: 750px; float: left;color: black;cursor: pointer; position: absolute; border: none;}
+.text{width: 60%;padding: 10px;}
+.labReport{width: 25%;}
+ul li{display: inline-block;}
